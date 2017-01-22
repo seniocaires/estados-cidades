@@ -2,7 +2,7 @@
 
 Este projeto provê um serviço para retornar os estados do Brasil e suas respectivas cidades.
 
-A API é [REST](http://en.wikipedia.org/wiki/Representational_State_Transfer "RESTful") e usa o [Apache Spark](http://sparkjava.com/ "Apache Spark").
+A API é [REST](http://en.wikipedia.org/wiki/Representational_State_Transfer "RESTful") e usa o [Spark](http://sparkjava.com/ "Spark").
 Atualmente, o formato de retorno de todos os endpoints é [JSON](http://json.org/ "JSON").
 
 ![alt tag](https://raw.githubusercontent.com/seniocaires/estados-cidades/master/img/docker-spark.png)
