@@ -18,17 +18,17 @@ Atualmente, o formato de retorno de todos os endpoints é [JSON](http://json.org
 - **[<code>GET</code> cidades/:estado](https://github.com/seniocaires/estados-cidades/blob/master/endpoints/cidades/GET_cidades.md)**
 
 ## FAQ
-### Como posso testar esta aPI?
+### Como posso testar esta API?
 
-Após fazer o download ou clonar o projeto, use o Docker para construir uma imagem e executar um container para testes.
+Use o Docker para baixar a imagem e executar um container para testes.
 
-- Construa a imagem executando o docker build no diretório raiz do projeto:
+- Baixe a imagem executando o docker pull:
 ```shell
-docker build -t estados-cidades .
+docker pull seniocaires/estados-cidades
 ```
-- Para iniciar um container da imagem recém construída:
+- Para iniciar um container da imagem recém baixada:
 ```shell
-docker run --rm -p 80:4567 estados-cidades
+docker run --rm -p 80:4567 seniocaires/estados-cidades
 ```
 
 ### Quais formatos de retorno são suportados?
