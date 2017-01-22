@@ -2,9 +2,9 @@
 
 Este projeto provê um serviço para retornar os estados do Brasil e suas respectivas cidades.
 
-A API é [REST API](http://en.wikipedia.org/wiki/Representational_State_Transfer "RESTful")
-e usa [Apache Spark](http://oauth.net/ "OAuth") como servidor.
-Atualmente, o formato de retorno de todos os endpoint é [JSON](http://json.org/ "JSON").
+A API é [REST](http://en.wikipedia.org/wiki/Representational_State_Transfer "RESTful")
+e usa o [Apache Spark](http://oauth.net/ "OAuth") como servidor.
+Atualmente, o formato de retorno de todos os endpoints é [JSON](http://json.org/ "JSON").
 
 ## Endpoints
 
@@ -15,7 +15,7 @@ Atualmente, o formato de retorno de todos os endpoint é [JSON](http://json.org/
 - **[<code>GET</code> estados-cidades](https://github.com/seniocaires/estados-cidades/blob/master/endpoints/estados-cidades/GET_estados-cidades.md)**
 
 #### Cidades
-- **[<code>GET</code> cidades](https://github.com/seniocaires/cidades/blob/master/endpoints/cidades/GET_cidades.md)**
+- **[<code>GET</code> cidades/:estado](https://github.com/seniocaires/estados-cidades/blob/master/endpoints/cidades/GET_cidades.md)**
 
 ## FAQ
 ### Como posso testar esta aPI?

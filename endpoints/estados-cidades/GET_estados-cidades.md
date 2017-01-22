@@ -22,7 +22,7 @@ Um array com as seguintes chaves e valores:
 
 - **nome** — Nome do estado (exemplo: Minas Gerais).
 - **sigla** — Sigla do estado (exemplo: MG).
-- **cidades** — Lista das cidades do respectivo estado
+- **cidades** — Lista das cidades do respectivo estado.
     - Nome da cidade.
 
 ***

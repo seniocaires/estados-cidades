@@ -1,6 +1,6 @@
 # Cidades
 
-    GET cidades
+    GET cidades/:estado
 
 ## Descrição
 Retorna a lista das cidades do estado passado como parâmetro.
